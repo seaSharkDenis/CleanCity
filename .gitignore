@@ -5,7 +5,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Production build
-
+build/
 dist/
 
 # Environment variables
@@ -14,6 +14,9 @@ dist/
 .env.development.local
 .env.test.local
 .env.production.local
+.venv/
+.pytest_cache/
+__pycache__/
 
 # IDE and editor files
 .vscode/
