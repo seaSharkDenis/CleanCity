@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from tests.utils import login
 
-# Zephyr Test Case: TC-CC-005, TC-CC-007
+# Zephyr Test Case: TC-CC-018
 @pytest.mark.parametrize(
         "email, password, expected_url",
         [

@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from tests.utils import login
 
+# Test Case TC-CC-008, TC-CC-009
 @pytest.mark.parametrize(
         "email, password, expected_url",
         [
